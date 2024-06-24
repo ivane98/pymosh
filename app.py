@@ -1,4 +1,9 @@
-import sys
+# from converters import kg_to_lb, lb_to_kg
+# from utils import find_max
+# import ecommerce.shipping
+
+# from random import randint
+
 # price = 1000000
 # down_payment = 0
 # good_credit = True
@@ -103,21 +108,82 @@ import sys
 
 # print(x, y, z)
 
-convert = {
-    1: 'one',
-    2: 'two',
-    3: 'three',
-    4: 'four'
-}
+# convert = {
+#     1: 'one',
+#     2: 'two',
+#     3: 'three',
+#     4: 'four'
+# }
 
-phone = input('Phone')
-output = ''
+# phone = input('Phone')
+# output = ''
 
-for i in phone:
-    output += convert[int(i)] + ' '
+# for i in phone:
+#     output += convert[int(i)] + ' '
 
-print(output)
+# print(output)
+
+# try:
+#     age = int(input('Age: '))
+#     income = 1000
+#     risk = income / age
+#     print(age)
+# except ZeroDivisionError:
+#     print('cant devide by zero')
+# except ValueError:
+#     print('Invalid Value')
 
     
+# class Point:
+#     def __init__(self, x, y) -> None:
+#         self.x = x
+#         self.y = y
 
+#     def move(self):
+#         print('move')
+
+#     def draw(self):
+#         print('draw')
+
+# class Person:
+#     def __init__(self, name) -> None:
+#         self.name = name
+
+#     def talk(self):
+#         print(f'my name is {self.name}')
+
+# p = Person('john')
+# p.talk()
+
+# class Animal:
+#     def walk(self):
+#         print('walking')
+
+# class Dog(Animal):
+#     pass
+
+# d = Dog()
+# d.walk()
         
+# numbers = [1, 2, 3, 4]
+
+# print(find_max(numbers))
+
+
+
+# class Dice:
+#     def roll(self):
+#         x = randint(1, 6)
+#         y = randint(1, 6)
+#         return (x, y)
+    
+# d = Dice()
+# print(d.roll())
+
+
+from pathlib import Path
+
+path = Path('email')
+
+for file in path.glob('*'):
+    print(file) 
