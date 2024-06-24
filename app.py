@@ -185,5 +185,5 @@ from pathlib import Path
 
 path = Path('email')
 
-for file in path.glob('*'):
+for file in path.glob('*s'):
     print(file) 
