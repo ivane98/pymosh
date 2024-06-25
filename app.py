@@ -181,9 +181,11 @@
 # print(d.roll())
 
 
-from pathlib import Path
+# from pathlib import Path
 
-path = Path('email')
+# path = Path('email')
 
-for file in path.glob('*s'):
-    print(file) 
+# for file in path.glob('*s'):
+#     print(file) 
+
+import pandas as pd
